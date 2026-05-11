@@ -1,11 +1,11 @@
-package warmup.ex
+package io.github.jin.warmup
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ExApplication
+class WarmupApplication
 
 fun main(args: Array<String>) {
-	runApplication<ExApplication>(*args)
+	runApplication<WarmupApplication>(*args)
 }
